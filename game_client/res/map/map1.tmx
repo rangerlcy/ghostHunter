@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="18" tilewidth="25" tileheight="25" nextobjectid="5">
+ <tileset firstgid="1" name="door" tilewidth="25" tileheight="25" tilecount="1" columns="1">
+  <image source="door.png" width="25" height="25"/>
+ </tileset>
+ <tileset firstgid="2" name="block" tilewidth="25" tileheight="25" tilecount="16" columns="4">
+  <image source="block.png" trans="ff00ff" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="18" name="block-1" tilewidth="25" tileheight="25" tilecount="16" columns="4">
+  <image source="block-1.png" trans="ff00ff" width="100" height="100"/>
+ </tileset>
+ <layer name="road" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJwTZGBgEBzFo3gUj+JRPIpH8SgeQRgAf5QmQQ==
+  </data>
+ </layer>
+ <layer name="wall" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzFUkEOgDAI47TDDvv/cz2ZIGlpMTGSEDfFtkBXRKwfc8czVnk6MamtHDkR/7QW1XT/Ve3sjnqcvkPYO507rQqf9c103HkAHuJiM0c6WB3S0+me8ite9GT+Z7j57uxJ+eGkc+fRSd9s945HKp7iYTh1/mwfjv9V/47HUCj/V61Mj/Is0tMl4mW6lF6lpfqf4XR9I/1OTef/N/0432qd4uvmMJ0Nw0Ga1f5R7TQcL36dF/caBuM=
+  </data>
+ </layer>
+ <layer name="cat" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BoAikglh5A++WAWH4A7R8Fo2AUjIJRQD4AALP+AHM=
+  </data>
+ </layer>
+ <layer name="door" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFtAJiA+0ACsFQd/8oGAWjYBQMJkBJmTpaHlMfAACIVwBZ
+  </data>
+ </layer>
+ <objectgroup name="doorObj" visible="0">
+  <object id="1" gid="1" x="580" y="70" width="15" height="15">
+   <properties>
+    <property name="pair" value="1"/>
+   </properties>
+  </object>
+  <object id="2" gid="1" x="705.5" y="370.5" width="15" height="15">
+   <properties>
+    <property name="pair" value="0"/>
+   </properties>
+  </object>
+  <object id="3" gid="1" x="280.5" y="395.5" width="15" height="15">
+   <properties>
+    <property name="pair" value="1"/>
+   </properties>
+  </object>
+  <object id="4" gid="1" x="180.5" y="118.5" width="15" height="15">
+   <properties>
+    <property name="pair" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

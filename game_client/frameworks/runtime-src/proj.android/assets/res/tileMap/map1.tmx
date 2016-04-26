@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="18" tilewidth="25" tileheight="25" nextobjectid="15">
+ <tileset firstgid="1" name="wall" tilewidth="25" tileheight="25" tilecount="1" columns="1">
+  <image source="wall.png" width="25" height="25"/>
+ </tileset>
+ <tileset firstgid="2" name="road" tilewidth="25" tileheight="25" tilecount="1" columns="1">
+  <image source="road.png" width="25" height="25"/>
+ </tileset>
+ <tileset firstgid="3" name="cat" tilewidth="25" tileheight="25" tilecount="1" columns="1">
+  <image source="cat.png" width="25" height="25"/>
+ </tileset>
+ <tileset firstgid="4" name="door" tilewidth="25" tileheight="25" tilecount="1" columns="1">
+  <image source="door.png" width="25" height="25"/>
+ </tileset>
+ <layer name="road" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMBKHj+4dekCm4aqqqjx5TLASB
+  </data>
+ </layer>
+ <layer name="wall" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzFlFEKwDAMQtv7X3q/Q9S87GeFUmhM1DTbPefcn/d7XTnJ2mCVQ3W0k2CJV8U3L60f2ztXm2gn9Z3H5iXVT1yp505HwiX/SfeWf+L98v7pPs1U0+Fi7k0cZuM7+SIzovU22lO+xif/pC+NS2PNS5t/1Zr0TDPrOKfvnb73pJdoIXWa7/Q/IR7J3FI/2xjhm/xqjGBTTtPRFsGkvL/3AxkbASI=
+  </data>
+ </layer>
+ <layer name="cat" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BoAmYoHqn2j4JRMApGwSggHwAAURgADQ==
+  </data>
+ </layer>
+ <layer name="door" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFtAIsA+0ACsFQd/8oGAWjYBQMJkBJmTpaHlMfAABOsAAR
+  </data>
+ </layer>
+ <objectgroup name="doorObj">
+  <object id="6" gid="4" x="580" y="70" width="15" height="15">
+   <properties>
+    <property name="pair" value="1"/>
+   </properties>
+  </object>
+  <object id="12" gid="4" x="705.5" y="370.5" width="15" height="15">
+   <properties>
+    <property name="pair" value="0"/>
+   </properties>
+  </object>
+  <object id="13" gid="4" x="280.5" y="395.5" width="15" height="15">
+   <properties>
+    <property name="pair" value="1"/>
+   </properties>
+  </object>
+  <object id="14" gid="4" x="180.5" y="118.5" width="15" height="15">
+   <properties>
+    <property name="pair" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
